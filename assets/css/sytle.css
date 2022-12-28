@@ -6,13 +6,44 @@ body {
     box-sizing: border-box;
 }
 
+
+header .container {
+    max-width: 1350px;
+    margin: auto;
+}
+.bar {
+    background-color: #006341;
+    width: 168px;
+    height: 22px;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+    margin: 30px 0;
+}
+.button {
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+}
+.button:hover {
+    color: #FFF;
+    background-color: #454545;
+}
+
+
+
+/* Cabeçalho e menu */
+
 header .line {
     background-color: #117050;
     height: 10px;
-}
-header .container {
-    max-width: 1140px;
-    margin: auto;
 }
 .header--area {
     display: flex;
@@ -24,9 +55,141 @@ header .container {
     width: 65px;
     height: 65px;
 }
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header--search form {
+    display: flex;
+}
 .header--search input {
     font-size: 1.2rem;
-    padding: 7px 10px;
+    padding: 8px 15px;
     border: 1px solid #999;
     outline: 0;
+    width: 100%;
+    max-width: 250px;
+}
+.header--search button {
+    border: 0;
+    background: transparent;
+    margin-left: -35px;
+    cursor: pointer;
+}
+.header--search button img {
+    width: 20px;
+    height: 20px;
+}
+.header--menu {
+    margin-left: 50px;
+    cursor: pointer;
+}
+.header--menu img {
+    width: 24px;
+    height: 24px;
+}
+
+/* banner principal */
+
+.banner {
+    max-width: 1350px;
+    margin: auto;
+}
+.banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 0;
+    margin-left: 200px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.banner span {
+    margin-left: 200px;
+}
+.banner--img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* Area 1 */
+
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area1--content {
+    padding: 100px;
+}
+.area1--quote {
+    margin-bottom: 30px;
+}
+.area1--text {
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.area1--img1 {
+    height: 700px;
+    background-image: url(/assets/images/f7.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.area1--img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url(/assets/images/f6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Area 2 */
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area1--content {
+    padding: 100px;
+}
+.area2--text {
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.area2--img1 {
+    height: 700px;
+    background-image: url(/assets/images/f4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.area2--img2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url(/assets/images/f3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Area 3 */
+
+.area3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.area3--content {
+    background-image: url(/assets/images/bg2.jpg);
+    background-position: left;
+    padding: 400px 100px;
+}
+.area3--text {
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.area3--img1 {
+    background-image: url(/assets/images/f5.jpg);
+    background-position: center;
+    background-size: cover;
 }
