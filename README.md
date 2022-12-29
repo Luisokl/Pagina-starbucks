@@ -17,12 +17,11 @@ Exercício do curso de HTML5 e CSS3 criação de interface para prática de posi
  - HTML5
  - CSS3
  
- <h2>Algumas imagens do projeto</h2>
+ <h2>Imagens do projeto</h2>
  para ver todo o projeto acesse o link logo abaixo.
  
  
 
-<h2>Link para a página</h2> 
- [pagina-starbucks.vercel.app](pagina-starbucks.vercel.app)
+Link para a página: [ pagina-starbucks-ldbtncgfn-luisokl.vercel.app](https://pagina-starbucks.vercel.app/)
  
  Autor: Luis Fernando
