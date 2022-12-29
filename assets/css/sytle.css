@@ -7,8 +7,8 @@ body {
 }
 
 
-header .container {
-    max-width: 1350px;
+.container {
+    max-width: 1140px;
     margin: auto;
 }
 .bar {
@@ -92,7 +92,7 @@ header .line {
 /* banner principal */
 
 .banner {
-    max-width: 1350px;
+    max-width: 1140px;
     margin: auto;
 }
 .banner h1 {
@@ -101,16 +101,11 @@ header .line {
     font-weight: 700;
     line-height: 80px;
     margin: 0;
-    margin-left: 200px;
     padding-top: 60px;
     padding-bottom: 40px;
 }
-.banner span {
-    margin-left: 200px;
-}
 .banner--img {
     display: flex;
-    justify-content: space-around;
     margin: 50px 0px;
 }
 
@@ -182,6 +177,7 @@ header .line {
 .area3--content {
     background-image: url(/assets/images/bg2.jpg);
     background-position: left;
+    background-size: cover;
     padding: 400px 100px;
 }
 .area3--text {
@@ -217,7 +213,193 @@ header .line {
 
 .area5 {
     height: 800px;
-    background-image: url(/assets/images/bg4.jpg);
+    background-image: url(/assets/images/bg5.jpg);
     background-position: center;
     background-size: cover;
+}
+
+/* footer */
+
+
+footer {
+    background-color: #333;
+}
+.area--footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.footer--img img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.footer--right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer--text {
+    color: #FFF;
+}
+
+@media (min-width: 769px) and (max-width: 1140px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .header-right {
+        margin-right: 60px;
+    }
+
+    .banner--img img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+    .button {
+        padding: 20px 40px;
+        font-size: 1.2rem;
+    }
+
+    .header--area {
+        justify-content: space-around;
+    }
+
+    .banner h1 {
+        font-size: 6rem;
+        line-height: 90px;
+    }
+    .banner span {
+        font-size: 1.35rem;
+    }
+    .banner--img img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .area1 {
+        grid-template-columns: 1fr;
+    }
+    .area1--quote,
+    .area1--text {
+        font-size: 1rem;
+    }
+
+    .area2 {
+        grid-template-columns: 1fr;
+    }
+    .area2--quote,
+    .area2--text {
+        font-size: 1rem;
+    }
+
+    .area3--content {
+        padding: 300px 100px;
+    }
+    .area3--text {
+        font-size: 1rem;
+    }
+
+    .area4 {
+        grid-template-columns: 1fr;
+    }
+    .area4--quote,
+    .area4--text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 25px;
+    }
+    h2 {
+        font-size: 2.3rem;
+        line-height: 45px;
+    }
+    .button {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .header--search {
+        display: none;
+    }
+
+
+    .banner h1 {
+        font-size: 3rem;
+        line-height: 40px;
+    }
+    .banner span {
+        font-size: 1rem;
+    }
+    .banner--img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .area1 {
+        grid-template-columns: 1fr;
+    }
+    .area1--content {
+        padding: 50px;
+    }
+    .area1--quote,
+    .area1--text {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .area2 {
+        grid-template-columns: 1fr;
+    }
+    .area2--content {
+        padding: 50px;
+    }
+    .area2--quote,
+    .area2--text {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .area3 {
+        grid-template-columns: 1fr;
+    }
+    .area3--content {
+        padding: 100px 50px;
+    }
+    .area3--quote,
+    .area3--text {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .area4 {
+        grid-template-columns: 1fr;
+    }
+    .area4--content {
+        padding: 100px 50px;
+    }
+    .area4--quote,
+    .area4--text {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .footer--img {
+        display: none;
+    }
+    .footer--text {
+        text-align: center;
+        font-size: .75rem;
+    }
 }
