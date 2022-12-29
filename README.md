@@ -1,5 +1,5 @@
  <div align="center">
- <h1>Página-starbucks</h1>
+ <h1>Página Starbucks</h1>
  </div><br>
  
 <div align="center">
@@ -18,8 +18,11 @@ Exercício do curso de HTML5 e CSS3 criação de interface para prática de posi
  - CSS3
  
  <h2>Imagens do projeto</h2>
- para ver todo o projeto acesse o link logo abaixo.
+ para ver todo a página completa e testar a responsividade acesse o link logo abaixo.
  
+ ![tela](https://github.com/Luisokl/Pagina-starbucks/blob/master/estampas/tela2.png)
+ ![tela](https://github.com/Luisokl/Pagina-starbucks/blob/master/estampas/tela3.png)
+ ![tela](https://github.com/Luisokl/Pagina-starbucks/blob/master/estampas/tela4.png)
  
 
 Link para a página: [ pagina-starbucks-ldbtncgfn-luisokl.vercel.app](https://pagina-starbucks.vercel.app/)
