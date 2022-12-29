@@ -10,7 +10,7 @@ Exercício do curso de HTML5 e CSS3 criação de interface para prática de posi
 ![Home](https://github.com/Luisokl/Pagina-starbucks/blob/master/estampas/tela%20inicial.png)
 
 <h2>Sobre o projeto:</h2>
-<p>Praticar a utilização do Css Grid para posicionamento dos itens na interface e a responsividade da página. </p>
+<p>Esse projeto foi elaborado para colocar em prática os conceitos de posicionamento utilizando o Css Grid, o foco foi no posicionamento dos itens da página com essa ferramenta e deixar adpatativa a qualquer tela. Obs: características diferentes ao Flexbox, você consegue muita liberdade para posicionar os itens na tela, mesclando os dois conseguimos posicionar qualquer coisa em qualquer lugar sem muita dificuldade, além do mais facilita muito na hora de deixar a página responsiva, uma ótima ferramenta para utilizar nos seus layouts. </p>
 
 <h2>Tecnologias:</h2>
 
@@ -18,7 +18,7 @@ Exercício do curso de HTML5 e CSS3 criação de interface para prática de posi
  - CSS3
  
  <h2>Imagens do projeto</h2>
- para ver todo a página completa e testar a responsividade acesse o link logo abaixo.
+ para ver a página completa e testar a responsividade acesse o link logo abaixo.<br><br>
  
  ![tela](https://github.com/Luisokl/Pagina-starbucks/blob/master/estampas/tela2.png)
  ![tela](https://github.com/Luisokl/Pagina-starbucks/blob/master/estampas/tela3.png)
